@@ -23,6 +23,7 @@ h1{
     text-align: center;
     font-size: 96px;
     letter-spacing: 20px;
+    margin: 0;
     
     color: white;
 }
@@ -82,6 +83,7 @@ p.rondPremier{
 
     font-family: "Quicksand", serif;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 p.rondDeuxieme{
@@ -99,6 +101,7 @@ p.rondDeuxieme{
 
     font-family: "Quicksand", serif;
     font-weight: bold;
+    margin: 50px;
 }
 
 p.rondTroisieme{
@@ -116,6 +119,7 @@ p.rondTroisieme{
 
     font-family: "Quicksand", serif;
     font-weight: bold;
+    margin: 50px;
 }
 
 p.rondQuatrieme{
@@ -133,6 +137,7 @@ p.rondQuatrieme{
 
     font-family: "Quicksand", serif;
     font-weight: bold;
+    margin: 70px;
 }
 
 .regles .rondPremier{
