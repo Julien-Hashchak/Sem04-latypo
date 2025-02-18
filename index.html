@@ -24,7 +24,7 @@
 </head>
 <body>
     
-<header>
+<header id="top">
     <div class="wrapper">
     <h1>La typographie</h1>
     </div>
@@ -32,45 +32,59 @@
 
 <section class="slogan">
     <div class="wrapper">
-    <blockquote>« L’écriture, la plus noble conquête de l’homme» <br> - Elsa Triolet</blockquote>
+        <q>L’écriture, la plus noble conquête de l’homme</q>
+        <p>- Elsa Triolet</p>
     </div>
 </section>
 
 <section class="regles">
     <div class="wrapper">
         <article>
-            <p>&laquo;</p>
-            <p>Quels guillemets choisir pour le Web ?</p>
+            <a href="#">
+            <p class="rondPremier">&laquo;</p>
+            <h2 class="soustitrePremier">Quels guillemets choisir pour le Web ?</h2>
+            </a>
         </article>
         <article>
-            <p>Qu’est-ce qu’un espace insécable ?</p>
-            <p>&amp;nbsp</p>
+            <a href="#">
+            <h2 class="soustitreDeuxieme">Qu’est-ce qu’un espace insécable ?</h2>
+            <p class="rondDeuxieme">&amp;nbsp</p>
+            </a>
         </article>
         <article>
-            <p>Windows</p>
-            <p>S’occuper de la veuve et de l’orphelin.</p>
+            <a href="#">
+            <p class="rondTroisieme">Windows</p>
+            <h2 class="soustitreTroisieme">S’occuper de la veuve et de l’orphelin.</h2>
+            </a>
         </article>
         <article>
-            <p>Et la hauteur de ligne dans tout ça ?</p>
-            <p>line-height</p>
+            <a href="#">
+            <h2 class="soustitreQuatrieme">Et la hauteur de ligne dans tout ça ?</h2>
+            <p class="rondQuatrieme">line-height</p>
+            </a>
         </article>
     </div>
 </section>
 
 <section class="info">
-<p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une police sans sérif (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, Google Font s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
-<p>Test à faire en dernier : <br> 
-Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième article. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).
-</p>
-  
+    <div class="wrapper">
+    <article>
+        <p>Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une police sans sérif (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, Google Font s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.</p>
+    </article>
+    <article>
+        <p>Test à faire en dernier : </p>
+        <p>Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième article. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).
+        </p>
+    </article>
+  </div>
 </section>
 
 <footer>
     <div class="wrapper">
         <p>La typographie</p>
-        <p class="icone"><span class="material-symbols-outlined">
+        <p class="icone"> <a href="#top"><span class="material-symbols-outlined">
             arrow_upward
-            </span>
+            </span></a>
         </p>
     </div>
 </footer>
